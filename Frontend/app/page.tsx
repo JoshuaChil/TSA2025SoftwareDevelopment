@@ -1,16 +1,13 @@
 
 "use client";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import ImageUpload from "./components/ImageUpload";
 import VideoUpload from "./components/VideoUpload";
 import HeadButton from "./components/headerBar";
-import Footer from "./components/footer";
 import ImageObserve from "./components/ImageObserve";
 import VideoObserve from "./components/VideoObserve";
 import Hero from "./components/Hero";
 import { useState } from 'react';
-import Foot from "./components/footer";
 
 export default function Home() {
   const[result, setResult] = useState<string | null>(null);
